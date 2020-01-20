@@ -1,4 +1,7 @@
 # blog-simple-
+
+演示地址：http://www.tianmawenzi.com/blog/
+
 一个自适应不同尺寸设备的博客系统，会根据大小不同屏幕加载不同的css布局。
 
 设计思路：
@@ -7,7 +10,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" media="(max-width: 768px)" href="css/mobile.css">
   
+  
 通过媒体查询浏览器的宽度给出不同的css文件。党浏览器宽度大于768px时候加载main.css，当浏览器宽度小于768px时候用mobile.css覆盖main.css，实现对小尺寸设备的个性化显示设置。
+
 
 main.css：
 
@@ -30,6 +35,8 @@ main.css：
 	padding: 10px;
 
 }
+
+
 把主页分成左边栏和右边主体两部分。左右边栏宽度分别为20%和80%。宽屏状态下，主体main部分中的article设置右边margin为20%，防止浏览器过度拉宽每行文字过长。
 
 
