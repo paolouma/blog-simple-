@@ -1,0 +1,91 @@
+body{
+	background:#3c3c3c;
+	color: white;
+}
+
+a{
+	color: #adadad;
+	text-decoration:none;
+
+}
+
+a:hover{
+	color: white;
+}
+
+
+.biaoti{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.zhengwen{
+	font-size: 14px;
+}
+
+.left{
+	position: fixed;
+	float: left;
+	width:20%;
+	border-right: 2px white solid;
+}
+
+.main{
+	float: right;
+	width:80%;
+
+}
+
+.article{
+	margin:10px 20% 30px 20px;
+	background: #6c6c6c;
+	padding: 10px;
+
+}
+
+.article>div{
+	margin-top: 10px;
+}
+
+
+.left>.logo{
+    
+	font-size:36px;
+	font-family: Times New Roman;
+	/*font-weight: bold;*/
+	width:144px;
+	padding: 10px;
+	margin:10 auto;
+	
+	border: 8px white solid;
+
+}
+
+.nav li{
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 33px;
+}
+
+.word{
+	margin: 30px 20px 30px 10px;
+
+}
+
+.licheng{
+	magrin:30px 20px 30px 10px;
+	padding: 10px;
+	font-size: 12px;
+	color: #7b7b7b;
+
+}
+
+.label{
+	display: none;
+}
+
+#menu-checked{
+	display: none;
+}
+
+
